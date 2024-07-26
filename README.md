@@ -1,42 +1,28 @@
 # fuzzshell
-(暑假再优化一下，尝试加个php)
 
-# fuzzshell开发记录
+![image-20240726143653735](https://s2.loli.net/2024/07/26/IWk2m1xzDrMptYg.png)
 
-## shell类
-
-> 
-
-### 开发进度
-
-- [x] 空格替换为$IFS
-- [x] 空格替换为${IFS}
-- [ ] 空格替换为$IFS$9
-- [x] 空格替换为 <
-- [ ] 空格替换为 <>
-- [x] ca\t /f\lag
-- [ ] 利用环境变量注入
-- [x] base64编码
-- [x] hex编码
-- [ ] 双hex 编码
-- [x] 大写hex 编码
-- [x] 八进制编码 例：`echo -e "\0154\0163\0012"`
-- [x] {cat,/flag}
+## 使用（参考[视频](https://github.com/chi111i/fuzzshell/blob/main/fuzzshell%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B.mp4)）
 
 
-
-## PHP类
-
-### 开发进度
-
-- [ ] 无
-
-## 使用
-
-![image-20240607185817466](https://s2.loli.net/2024/06/07/tQRWOLuqphHUfYj.png)
 
 第一行为输入命令，文件地址，或者其他数据
 
-第二行为黑名单，用 "," 隔开
+第二行为黑名单，用 "," 隔开如： flag,eval,cat,system
 
-记得去重。点击复制后导入到burpsuite进行fuzz
+然后点击去重。
+
+点击复制后导入到burpsuite进行fuzz
+
+
+
+
+
+- 命令混淆： 对linux命令进行简单的混淆
+- 读文件+混淆： 不需要输入命令，输入文件的地址即可如/flag (或者/f* /f???)
+- 读文件：只输出一些能查看文件的命令不进行混淆
+- php读文件：题目环境存在include()文件包含的情况下使用
+- php代码执行：题目环境中存在eaval()等情况下使用
+- 八进制编码：
+- 十六进制编码：
+- IP编码：ipv4地址编码，SSRF使用
