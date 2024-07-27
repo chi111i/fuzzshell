@@ -3,8 +3,8 @@
 ![image-20240726143653735](https://s2.loli.net/2024/07/26/IWk2m1xzDrMptYg.png)
 
 ## 使用
-（视频教程）
-[![Video](https://s2.loli.net/2024/07/26/IWk2m1xzDrMptYg.png)](https://youtu.be/LAFNWY7c_9E)
+视频教程: https://youtu.be/LAFNWY7c_9E 
+
 
 
 
