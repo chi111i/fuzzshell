@@ -4,7 +4,7 @@
 
 ## 使用
 （视频教程）
-![Video]([https://private-user-images.githubusercontent.com/117554817/352714100-cffaff44-07bf-445a-8a2e-f23265085b81.mp4](https://youtu.be/LAFNWY7c_9E))
+![Video](https://youtu.be/LAFNWY7c_9E)
 
 
 
