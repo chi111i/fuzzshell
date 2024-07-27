@@ -2,7 +2,7 @@
 
 ![image-20240726143653735](https://s2.loli.net/2024/07/26/IWk2m1xzDrMptYg.png)
 
-## 使用（参考[视频](https://github.com/chi111i/fuzzshell/blob/main/fuzzshell%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B.mp4)）
+## 使用（视频教程https://private-user-images.githubusercontent.com/117554817/352714100-cffaff44-07bf-445a-8a2e-f23265085b81.mp4）
 
 
 
