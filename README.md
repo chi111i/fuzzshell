@@ -2,7 +2,9 @@
 
 ![image-20240726143653735](https://s2.loli.net/2024/07/26/IWk2m1xzDrMptYg.png)
 
-## 使用（视频教程https://private-user-images.githubusercontent.com/117554817/352714100-cffaff44-07bf-445a-8a2e-f23265085b81.mp4）
+## 使用
+（视频教程）
+https://private-user-images.githubusercontent.com/117554817/352714100-cffaff44-07bf-445a-8a2e-f23265085b81.mp4
 
 
 
