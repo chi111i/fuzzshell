@@ -4,7 +4,7 @@
 
 ## 使用
 （视频教程）
-[![IMAGE ALT TEXT](https://s2.loli.net/2024/07/26/IWk2m1xzDrMptYg.png)](https://private-user-images.githubusercontent.com/117554817/352714100-cffaff44-07bf-445a-8a2e-f23265085b81.mp4)
+![Sample Video](https://private-user-images.githubusercontent.com/117554817/352714100-cffaff44-07bf-445a-8a2e-f23265085b81.mp4)
 
 
 
