@@ -28,3 +28,5 @@
 - 八进制编码：
 - 十六进制编码：
 - IP编码：ipv4地址编码，SSRF使用
+- 沙箱逃逸：参考https://github.com/Macr0phag3/parselmouth，在第一栏输入`__import__('os').popen('cat /flag').read()` 第二栏输入黑名单  `__,os,pop,system` 点击输出自动绕WAF
+- SSTI：参考https://github.com/Marven11/Fenjing ，在第一栏输入 `cat /flag` 第二栏输入  `_,os,{{,}},eavl,subprocess` 点击输出自动绕WAF
