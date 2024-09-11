@@ -1,6 +1,6 @@
 from PySide6 import QtCore, QtWidgets
 import sys
-from ui_untitledzisi import Ui_Form
+from ui import Ui_Form
 import shellmain
 import phpinfo
 from fenjing import exec_cmd_payload
