@@ -22,6 +22,7 @@
 ## 功能说明
 - 黑名单不支持正则 将被过滤的字符用 `,` 隔开 如  ` flag,eval,cat,system,php` 然后点击黑名单，会按行清除输出中存在黑名单的数据
   可以用以下脚本
+  
   python
   ``` python
   import re
