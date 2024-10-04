@@ -22,6 +22,7 @@
 ## 功能说明
 - 黑名单不支持正则 将被过滤的字符用 `,` 隔开 如  ` flag,eval,cat,system,php` 然后点击黑名单，会按行清除输出中存在黑名单的数据
   可以用以下脚本
+  python
   ``` python
   import re
 
@@ -45,6 +46,18 @@
       print(i, end=",")
   print("Unfiltered characters:", unfiltered_chars)
 
+  ```
+  php
+  ``` php
+  $filtered_chars = [];
+
+  for ($ascii = 0; $ascii < 256; $ascii++) {
+      if (!preg_match('/[A-Za-z0-9]|\'|"|`|\ |,|\.|-|\+|=|\/|\\|<|>|\$|\?|\^|&|\|/is', chr($ascii))) {
+         $filtered_chars[] = chr($ascii);
+    }
+  }
+
+  echo implode(',', $filtered_chars);
   ```
   
 - 命令混淆： 对linux命令进行简单的混淆 `cat /flag` >> &#96;echo 636174202f666c6167 | xxd -r -p&#96;
