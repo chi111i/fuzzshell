@@ -43,10 +43,10 @@
       else:
           unfiltered_chars.append(char)
 
-  print("Filtered characters:", filtered_chars)
+  #print("Filtered characters:", filtered_chars)
   for i in filtered_chars:
       print(i, end=",")
-  print("Unfiltered characters:", unfiltered_chars)
+  #print("Unfiltered characters:", unfiltered_chars)
 
   ```
   php
