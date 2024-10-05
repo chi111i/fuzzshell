@@ -76,10 +76,7 @@
 - SSTI：参考https://github.com/Marven11/Fenjing ， 在第一栏输入 `cat /flag` 第二栏输入  `_,os,{{,}},eavl,subprocess` 点击输出自动绕WAF
 - phpinfo信息 ：如何存在phpinfo页面，可以将burpsuite的数据包内容 或者 浏览器右键查看页面源代码全选 复制到第一栏 ，点击输出即可 参考  https://github.com/LxxxSec/HackPhpinfo
 
-
-
-
-##微步
+## 微步
 
   ![图片](https://github.com/user-attachments/assets/a0a6f2e0-6724-4ce4-b4da-b19024a8b7fa)
 
