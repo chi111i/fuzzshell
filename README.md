@@ -1,5 +1,5 @@
 # fuzzshell 
-
+# 如何可以提供笔记或者WP 请加 QQ: 2741676608 助力工具开发
 
 ![图片](https://github.com/user-attachments/assets/2e4b0ccd-39c6-48cb-b65a-df22c5eb5650)
 
