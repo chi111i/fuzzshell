@@ -6,6 +6,7 @@
 
 ## 视频教程
 视频教程: https://youtu.be/LAFNWY7c_9E 
+https://www.bilibili.com/video/BV1xVy5YiEim/
 
 
 
