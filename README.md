@@ -70,13 +70,16 @@ https://www.bilibili.com/video/BV1xVy5YiEim/
 - php读文件：题目环境存在include()文件包含的情况下使用 不需要输入命令，输入文件的地址即可如/flag
 - php代码执行：题目环境中存在eval()等情况下使用
 
-加入了 无字母数字RCE(异或和取反等方法) 以及 无参数+无字母数字RCE (类似于`system(pos(next(getallheaders())));` >>` [~%8C%86%8C%8B%9A%92][!%FF]([~%8F%90%8C][!%FF]([~%91%9A%87%8B][!%FF]([~%98%9A%8B%9E%93%93%97%9A%9E%9B%9A%8D%8C][!%FF]())));`)
+  - 加入了 无字母数字RCE(异或和取反等方法) 以及 无参数+无字母数字RCE (类似于`system(pos(next(getallheaders())));` >>` [~%8C%86%8C%8B%9A%92][!%FF]([~%8F%90%8C][!%FF]([~%91%9A%87%8B][!%FF]([~%98%9A%8B%9E%93%93%97%9A%9E%9B%9A%8D%8C][!%FF]())));`)
 - 八进制编码：
 - 十六进制编码：
+- unicode编码:对输出内容进行unicode编码
 - IP编码：ipv4地址编码，SSRF使用
 - 沙箱逃逸：参考https://github.com/Macr0phag3/parselmouth ,  在第一栏输入`__import__('os').popen('cat /flag').read()` 第二栏输入黑名单  `__,os,pop,system` 点击输出自动绕WAF
 - SSTI：参考https://github.com/Marven11/Fenjing ， 在第一栏输入 `cat /flag` 第二栏输入  `_,os,{{,}},eavl,subprocess` 点击输出自动绕WAF
 - phpinfo信息 ：如果存在phpinfo页面，可以将burpsuite的数据包内容 或者 浏览器右键查看页面源代码全选 复制到第一栏 ，点击输出即可 参考  https://github.com/LxxxSec/HackPhpinfo
+- php函数分析：依赖于 php_rules.json ，内容暂时不多，如果你可以补充可以提交 Issues，将黑名单内容用 `,`逗号隔开 点击输出 就能输出一些可用函数或者 payload
+![图片](https://github.com/user-attachments/assets/f91009c3-57f2-4798-8164-841b82cd669b)
 
 ## 微步
 
