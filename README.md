@@ -77,6 +77,15 @@ https://www.bilibili.com/video/BV1xVy5YiEim/
 - unicode编码:对输出内容进行unicode编码
 - IP编码：ipv4地址编码，SSRF使用
 - 沙箱逃逸：参考https://github.com/Macr0phag3/parselmouth ,  在第一栏输入`__import__('os').popen('cat /flag').read()` 第二栏输入黑名单  `__,os,pop,system` 点击输出自动绕WAF
+
+沙箱逃逸功能中 ，修改 https://github.com/Macr0phag3/parselmouth 项目 ，实现该项目未实现的功能 如
+ ` '__buil''tins__' -> '%c%c%c%c%c%c%c%c%c%c%c%c' % (95, 95, 98, 117, 105, 108, 116, 105, 110, 115, 95, 95) `
+`['read','popen','os','s','\\'] >> getattr(getattr(__import__('o'+'%c'%115),'p'+'open')('calc'),('r'+'ead'))()`
+由原项目的 103
+![图片](https://github.com/user-attachments/assets/284c53f0-9ea9-4202-9304-a241e085e673)
+ 增加为 116
+![图片](https://github.com/user-attachments/assets/149e7304-b0cd-4145-b81c-ed2d7ee79f95)
+
 - SSTI：参考https://github.com/Marven11/Fenjing ， 在第一栏输入 `cat /flag` 第二栏输入  `_,os,{{,}},eavl,subprocess` 点击输出自动绕WAF
 - phpinfo信息 ：如果存在phpinfo页面，可以将burpsuite的数据包内容 或者 浏览器右键查看页面源代码全选 复制到第一栏 ，点击输出即可 参考  https://github.com/LxxxSec/HackPhpinfo
 - php函数分析：依赖于 php_rules.json ，内容暂时不多，如果你可以补充可以提交 Issues，将黑名单内容用 `,`逗号隔开 点击输出 就能输出一些可用函数或者 payload
