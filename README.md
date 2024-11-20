@@ -80,7 +80,8 @@ https://www.bilibili.com/video/BV1xVy5YiEim/
 
 沙箱逃逸功能中 ，修改 https://github.com/Macr0phag3/parselmouth 项目 ，实现该项目未实现的功能 如
  ` '__buil''tins__' -> '%c%c%c%c%c%c%c%c%c%c%c%c' % (95, 95, 98, 117, 105, 108, 116, 105, 110, 115, 95, 95) `
-`['read','popen','os','s','\\'] >> getattr(getattr(__import__('o'+'%c'%115),'p'+'open')('calc'),('r'+'ead'))()`
+ 
+`黑名单 ['read','popen','s','\\'] >> getattr(getattr(__import__('o'+'%c'%115),'p'+'open')('calc'),('r'+'ead'))()`
 由原项目的 103
 ![图片](https://github.com/user-attachments/assets/284c53f0-9ea9-4202-9304-a241e085e673)
  增加为 116
