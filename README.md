@@ -1,5 +1,5 @@
 # fuzzshell 
-# 不再打包工具和修复bug,新功能以及更新请到CTF-ALL-IN-ONE web 页面使用
+# 不再打包工具和修复bug,新功能以及更新请到CTFTOLLS-ALL-IN-ONE web 页面使用
 ![3bf3b105bd268529e6f64989dd06cc5](https://github.com/user-attachments/assets/f3c62589-8423-4a54-8589-3bc40949a481)
 
 ## 如何可以提供笔记或者WP 请加 QQ: 2741676608 助力工具开发
