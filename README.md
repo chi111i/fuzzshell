@@ -1,6 +1,5 @@
 # fuzzshell 
-# 新功能以及更新请到CTFTOLLS-ALL-IN-ONE web 页面使用
-![3bf3b105bd268529e6f64989dd06cc5](https://github.com/user-attachments/assets/f3c62589-8423-4a54-8589-3bc40949a481)
+
 
 ## 如何可以提供笔记或者WP 请加 QQ: 2741676608 助力工具开发
 ## 如果有更多payload 方法，可以提交 Issues
@@ -106,4 +105,7 @@ https://www.bilibili.com/video/BV1xVy5YiEim/
   
 ## 请我喝菠萝甜心橙
 ![图片](https://github.com/user-attachments/assets/2c65dd24-52c4-4e25-aaff-4aae5938fa2c)
+
+## 新功能以及更新请到CTFTOLLS-ALL-IN-ONE web 页面使用
+![3bf3b105bd268529e6f64989dd06cc5](https://github.com/user-attachments/assets/f3c62589-8423-4a54-8589-3bc40949a481)
 
